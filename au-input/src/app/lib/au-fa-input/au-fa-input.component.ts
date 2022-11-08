@@ -8,7 +8,12 @@ import { Component, Input, OnInit } from '@angular/core';
 export class AuFaInputComponent implements OnInit {
 
   @Input()
-  icon: string;
+  icon = '';
+
+  @Input()
+  placeholderInChild ='';
+
+
 
   constructor() { }
 
