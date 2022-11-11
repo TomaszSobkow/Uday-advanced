@@ -10,9 +10,6 @@ export class AuFaInputComponent implements OnInit {
   @Input()
   icon = '';
 
-  @Input()
-  placeholderInChild ='';
-
 
 
   constructor() { }
