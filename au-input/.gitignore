@@ -18,8 +18,10 @@
 *.sublime-workspace
 
 # IDE - VS
-angular-advanced-course/.vs
+angular-advanced-course/
 .angular/
+.vs/
+
 
 
 
