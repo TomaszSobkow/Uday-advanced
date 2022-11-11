@@ -4,8 +4,8 @@
   "newProjectRoot": "projects",
   "projects": {
     "au-input": {
-      "root": "",
-      "sourceRoot": "src",
+      "root": "au-input",
+      "sourceRoot": "src/app/",
       "projectType": "application",
       "architect": {
         "build": {
@@ -30,7 +30,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
@@ -118,8 +117,7 @@
   "defaultProject": "au-input",
   "schematics": {
     "@schematics/angular:component": {
-      "prefix": "",
-      "styleext": "css"
+      "prefix": ""
     },
     "@schematics/angular:directive": {
       "prefix": ""
