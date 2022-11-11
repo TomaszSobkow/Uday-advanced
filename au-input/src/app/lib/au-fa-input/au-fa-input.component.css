@@ -1,0 +1,13 @@
+.icon{
+    width: 25px;
+    text-align: center;
+    border: none;
+  }
+
+  :host{
+    background: rgb(224, 220, 220);
+    padding: 9px;
+    padding-right: 32px;
+  }
+
+  
