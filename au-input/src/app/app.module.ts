@@ -6,14 +6,17 @@ import { AppComponent } from './app.component';
 
 import { HttpClientModule} from "@angular/common/http";
 import { AuFaInputComponent } from './lib/au-fa-input/au-fa-input.component';
-
+import { InputDirective } from './lib/au-fa-input/common/input.directive';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    AuFaInputComponent
+    AuFaInputComponent,
+    InputDirective,
+    
+   
   ],
   imports: [
     BrowserModule,
